@@ -9,6 +9,8 @@ export default function CreateProjectView() {
     description: ""
 
   }
+
+  // creating some function to create forms in the app. 
   const { register, handleSubmit, formState: {errors}} = useForm({defaultValues: initialValues})
 
   const handleForm = (data) => {
