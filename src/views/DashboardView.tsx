@@ -1,5 +1,6 @@
 import { Link} from 'react-router-dom'
 
+// DashboardView.tsx
 export default function DashboardView() {
   return (
     <>
